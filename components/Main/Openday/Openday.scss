@@ -1,0 +1,66 @@
+.openday {
+  padding: 40px 0;
+
+  &__box {
+    position: relative;
+    width: 100%;
+    background-color: #ff0a47;
+    border-radius: 12px;
+    color: #fff;
+    padding: 59px;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      width: 540px;
+      height: 364px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      background-image: url('/images/openday/cubik.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 48px;
+  }
+
+  &__link {
+    display: inline-block;
+    background-color: #0d1140;
+    border: 1px solid #0d1140;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;   
+    padding: 16px 56px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background-color: #ffd11a;
+      border-color: #ffd11a;
+      color: #0d1140;
+    }
+  }
+
+  &__ {
+    
+  }
+
+  &__ {
+    
+  }
+}

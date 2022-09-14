@@ -1,0 +1,61 @@
+.topheader {
+  padding: 8px 0;
+  border-bottom: 1px solid #cdd9ed;
+
+  &__bigbox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #0d1140;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: #ff0a47;
+    }
+  }
+
+  &__box {
+    display: flex;
+  }
+
+  &__telbox {
+    
+  }
+
+  &__tel {
+    font-weight: 500;
+    color: #0d1140;
+    white-space: nowrap;
+    margin-left: 16px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #ff0a47;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #0d1140;
+    line-height: 20px;
+    margin-left: 48px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: #ff0a47;
+    }
+
+    & svg {
+      font-size: 16px;
+      margin-right: 8px;
+    }
+  }
+}

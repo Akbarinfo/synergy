@@ -1,0 +1,96 @@
+.hero {
+  background-color: #fff;
+  background-image: url('/images/hero/quiz-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+
+  &__bigbox {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+  }
+
+  &__box {
+    width: 750px;
+    padding-top: 90px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 90px;
+    letter-spacing: -0.06em;
+    color: #ff0a47;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 23px;
+    color: #0d1140;
+    margin-bottom: 40px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    background-color: #ff0a47;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 15px 50px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background-color: #ffd11a;
+      color: #0d1140;
+    }
+
+    svg {
+      font-weight: 400;
+      font-size: 28px;
+      margin-left: 10px;
+    }
+  }
+
+  &__imgbox {
+    width: 680px;
+    height: 568px;
+    margin-right: -24px;
+  }
+
+  &__img {
+    width: 680px;
+    height: 568px;
+  }
+
+  &__ {
+    
+  }
+
+  &__ {
+    
+  }
+
+  &__ {
+    
+  }
+
+  &__ {
+    
+  }
+
+  &__ {
+    
+  }
+
+  &__ {
+    
+  }
+}

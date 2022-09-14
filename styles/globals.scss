@@ -1,0 +1,62 @@
+@import './fonts/ttnorms/stylesheet.scss';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  max-width: 2560px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f9fd;
+  font-family: "TT Norms", sans-serif !important;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+main {
+  flex-grow: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button {
+  font-family: "TT Norms", sans-serif;
+  cursor: pointer
+}
+
+@import '../components/Header/TopHeader.scss';
+@import '../components/Header/Header.scss';
+@import '../components/Hero/Hero.scss';
+@import '../components/Main/Faculties/Faculties.scss';
+@import '../components/Main/Openday/Openday.scss';
+@import '../components/Main/Catalog/Catalog.scss';
+@import '../components/Main/Forms/Forms.scss';
