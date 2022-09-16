@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Приём после 9 и 11 классов",
+    "desc": "",
+    "icon": "/images/admission/01.png"     
+  },
+  {
+    "id": 2,
+    "title": "Бюджетные места",
+    "desc": "",
+    "icon": "/images/admission/02.png"     
+  },
+  {
+    "id": 3,
+    "title": "Перевод из других вузов",
+    "desc": "без потери курса",
+    "icon": "/images/admission/03.png"     
+  },
+  {
+    "id": 4,
+    "title": "Места в общежитии",
+    "desc": "",
+    "icon": "/images/admission/04.png"     
+  },
+  {
+    "id": 5,
+    "title": "Гранты на обучение",
+    "desc": "",
+    "icon": "/images/admission/05.png"     
+  },
+  {
+    "id": 6,
+    "title": "Приём иностранных граждан",
+    "desc": "",
+    "icon": "/images/admission/06.png"     
+  }
+]
